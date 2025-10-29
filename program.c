@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+extern unsigned long long factorial(int n);
+
 int main() {
     int n;
     unsigned long long factorial = 1;
